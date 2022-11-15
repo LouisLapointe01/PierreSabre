@@ -7,7 +7,7 @@ public class Commercant extends Humain{
 	}
 	public void seFaireExtorquer() {
 		perdreArgent(getArgent());
-		parler("J'ai tout perdu le monde est trop injuste");
+		parler("J'ai tout perdu le monde est trop injuste !");
 	}
 	public void recevoireArgent(int montant) {
 		parler(montant + " sous, je te remercie généreux donateur!");
